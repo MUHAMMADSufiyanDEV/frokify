@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -177,4 +178,185 @@ body{
 
     }
     
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#forknav{
+    height: 13vh;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo > img {
+    height: 12vh;
+    padding: 10px;
+}
+
+#search{
+    flex: 1;
+    text-align: center;
+}
+
+#search > input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border:  #ccc;
+    border-radius: 24px;
+    height: 8vh;
+    
+}
+
+#search > button {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: -90px;
+    border: none;
+    background: #f78914;
+    background: linear-gradient(143deg,rgba(247, 137, 20, 1) 0%, rgba(242, 75, 75, 1) 50%, rgba(242, 86, 19, 1) 100%);
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 9vh;
+}
+
+
+#buttons > button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    border: none;
+    background: #f78914;
+    background: linear-gradient(143deg,rgba(247, 137, 20, 1) 0%, rgba(242, 75, 75, 1) 50%, rgba(242, 86, 19, 1) 100%);
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 7vh;
+}
+
+
+#innercontent{
+    display: flex;
+    height: 87vh;
+    width: 100%;
+    
+}
+
+#left-sidebar{
+    width: 35%;
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    border-right: 2px solid #ccc;
+}
+
+#right-sidebar{
+    width: 75%;
+    height: 100%;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#food-card{
+    width: 90%;
+    height: 100px;
+    background-color: #5c5c5c;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+#food-details{
+    flex: 1;
+}
+
+#food-card > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 20px;             
+
+}
+
+#right-sidebar > #recipe-details {
+    padding: 20px;
+}
+
+#recipe-details > h2 {
+    margin-bottom: 30px;
+}
+
+#recipe-details > img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#recipe-details > ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#recipe-details > p {
+    margin-top: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#recipe-details > h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#food-card:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    #search > input {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    #search > button {
+        font-size: 16px;
+        height: 7vh;
+        margin-left: -70px;
+    }
+
+    #buttons > button {
+    display: none;
+
+    }
+    
+>>>>>>> 317399754f72bcf41ff94419acff9d61a9f34d29
 }
